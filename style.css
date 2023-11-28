@@ -1,0 +1,273 @@
+.container{
+    display: inline;
+
+    display: flex;
+    flex-wrap: wrap;
+    background-color: antiquewhite;
+    padding-left: 92px;
+}
+.logo img{
+    display: inline;
+    display: flex;
+    width: 12%;
+    border-radius: 12px;
+}
+.navbar{
+    position: relative;
+bottom: 4rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 12rem;
+width: 70%;
+
+}
+.navbar ul{
+    position: relative;
+    display: inline;
+
+    display: flex;
+    flex-wrap: wrap;
+    padding:12px;
+}
+.navbar ul li{
+    list-style: none;
+    padding-bottom:;
+    padding-left: 43px;
+    gap: 2px;
+    width: 8rem;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar ul li a:hover{
+    text-decoration: none;
+    color: rgb(37, 204, 182);
+    font-size:rem;
+    font-family: 'Times New Roman', Times, serif;
+    border-width: 4px 0px 0px 0px; 
+}
+.AppointmentButton{
+
+    position: relative;
+    bottom: 3rem;
+    border-radius: 6px;
+
+}
+.AppointmentButton button{
+    position: relative;
+   padding: 0.8rem;
+   border-radius: 6px;
+   background-color: rgb(56, 202, 207);
+   color: antiquewhite;
+   border: none;
+}
+.AppointmentButton button:hover{
+    position: relative;
+   padding: 0.8rem;
+   border-radius: 6px;
+   background-color: rgb(44, 49, 49);
+   color: antiquewhite;
+   border: none;
+   transition-duration: 1s;
+}
+.body{
+    display: flex;
+}
+.body .text h1{
+    font-size: 4rem;
+    padding-left: 22px;
+
+
+}
+.Picture img{
+    position: relative;
+    width: 26rem;
+   left: 424px;
+}
+.buttonss #GetAppointment{
+    position: relative;
+    top: 24rem;
+    width: 9rem;
+    right: 53rem;
+    padding: 0.8rem;
+    border-radius: 6px;
+    background-color: rgb(56, 202, 207);
+    color: antiquewhite;
+    border: none;
+}
+.buttonss #GetAppointment:hover{
+    position: relative;
+    top: 24rem;
+    width: 10rem;
+    right: 53rem;
+    padding: 0.8rem;
+    border-radius: 6px;
+    background-color: rgb(29, 34, 34);
+    color: antiquewhite;
+    border: none;
+    transition-duration: 0.7s;
+}
+.buttonss #Aboutus{
+    position: relative;
+    top: 24rem;
+    width: 7rem;
+    right: 52rem;
+    padding: 0.8rem;
+    border-radius: 6px;
+    background-color: rgb(48, 53, 53);
+    color: antiquewhite;
+    border: none;
+}
+.buttonss #Aboutus:hover{
+    position: relative;
+    top: 24rem;
+    width: 8rem;
+    right: 52rem;
+    padding: 0.8rem;
+    border-radius: 6px;
+    background-color: rgb(29, 34, 34);
+    color: antiquewhite;
+    border: none;
+    transition-duration: 0.7s;
+}
+.threeboxes{
+    
+    position: relative;
+    display: flex;
+    top: rem;
+    width: 100%;
+    height: 18rem;
+    padding: 22px;
+    padding-left: 2px;
+    color: beige;
+    font-family: sans-serif;
+    
+   
+
+}
+.threeboxes .box1{
+    padding: 27px;
+    width:21rem;
+    background-color: rgb(42, 134, 170);
+    margin-left: 12px;
+
+}
+.threeboxes .box2{
+    padding: 27px;
+
+    width:21rem;
+    background-color: rgb(42, 134, 170);
+    margin-left: 32px;
+
+}
+.threeboxes .box3{
+    padding: 27px;
+    
+    width:21rem;
+    background-color: rgb(42, 134, 170);
+    margin-left: 42px;
+
+}
+.body2 .threeitems{
+    display: flex;
+}
+.item1 img{
+    padding-left: 4rem;
+    padding-top: 3rem;
+}
+.threeitems .item1{
+
+    padding: 12px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 11rem;
+    
+}
+.item1 p{
+    position: relative;
+   font-style: normal ;
+   font-family: sans-serif;
+    right:122px;
+
+}
+.threeitems .item2{
+
+    padding: 12px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 11rem;
+    
+}
+.item2 p{
+    position: relative;
+   font-style: normal ;
+   font-family: sans-serif;
+    right:122px;
+
+}
+.item2 img{
+    padding-right:17rem;
+    padding-top: rem;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(26, 76, 214, 0.767);
+    color: rgb(248, 248, 248);
+    font-family: sans-serif;
+}
+
+.footer ul {
+    position: relative;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    display: inline-block;
+}
+.footer ul li{
+    padding-top: 1rem;
+font-size: large;
+
+
+}
+.company  {
+    position: relative;
+    padding-top: 4rem;
+    padding-left:19rem;
+    font-size: large;
+}
+.company li{
+    padding-top: 1.4rem;
+    text-decoration: none;
+    list-style: none;
+}
+#Subscribe{
+    position: relative;
+    top: 4.3rem;
+    left: 12rem;
+}
+#search{
+    margin-right: 2rem;
+    margin-bottom: rem;
+    width: 18rem;
+    height: 3rem;
+    border-radius: 4px;
+}
+.footerfinal{
+    background-color: rgb(29, 131, 190);
+    
+    width: 100%;
+    height: 2rem;
+    padding: 32px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-family: sans-serif;
+    word-spacing: rem;
+    letter-spacing: 1px;
+    
+
+}
